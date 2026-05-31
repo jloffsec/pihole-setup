@@ -237,7 +237,7 @@ pihole enable
 # Cambiar contraseña del panel
 pihole setpassword new_password
 ```
-![Query log](screenshots/query-log.png)
+![Query log](screenshots/ssh-log.png)
 
 ---
 
