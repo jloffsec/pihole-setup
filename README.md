@@ -158,6 +158,7 @@ http://192.168.1.150/admin
 # o
 http://pihole/admin
 ```
+![Dashboard Pi-hole](screenshots/dashboard.png)
 
 Desde el panel se puede:
 
@@ -193,6 +194,7 @@ pihole -g
 ```bash
 pihole status
 ```
+![pihole status](screenshots/status.png)
 
 ### Verificar que el DNS funciona desde otro dispositivo
 
@@ -235,6 +237,7 @@ pihole enable
 # Cambiar contraseña del panel
 pihole setpassword new_password
 ```
+![Query log](screenshots/query-log.png)
 
 ---
 
