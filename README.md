@@ -9,16 +9,16 @@ Documentación del proceso de instalación y configuración de Pi-hole como bloq
 
 ## Índice
 
-1. [[README#Qué es Pi-hole | Qué es Pi-Hole]]
-2. [[README#Requisitos previos | Requisitos previos]]
-3. [[README#Preparación de la Raspberry Pi | Preparación de la Raspberry Pi]]
-4. [[README#Instalación de Pi-hole | Instalación de Pi-hole]]
-5. [[README#Configuración del router | Configuración del router]]
-6. [[README#Panel de administración | Panel de administración]]
-7. [[README#Listas de bloqueo recomendadas | Listas de bloqueo recomendadas]]
-8. [[README#Verificación | Verificación]]
-9. [[README#Comandos útiles | Comandos útiles]]
-10. [[README#Problemas conocidos | Problemas conocidos]]
+1. [Qué es Pi-hole](#qué-es-pi-hole)
+2. [Requisitos previos](#requisitos-previos)
+3. [Preparación de la Raspberry Pi](#preparación-de-la-raspberry-pi)
+4. [Instalación de Pi-hole](#instalación-de-pi-hole)
+5. [Configuración del router](#configuración-del-router)
+6. [Panel de administración](#panel-de-administración)
+7. [Listas de bloqueo recomendadas](#listas-de-bloqueo-recomendadas)
+8. [Verificación](#verificación)
+9. [Comandos útiles](#comandos-útiles)
+10. [Problemas conocidos](#problemas-conocidos)
 
 ---
 
@@ -133,7 +133,7 @@ pihole setpassword <nueva_contraseña>
 
 ---
 
-### Configuración del router
+## Configuración del router
 
 Para que Pi-hole filtre el tráfico de toda la red, el router debe entregar la IP de la Raspberry Pi como servidor DNS a todos los dispositivos por DHCP.
 
@@ -149,7 +149,7 @@ En la interfaz del router:
 
 ---
 
-### Panel de administración
+## Panel de administración
 
 Accesible desde cualquier dispositivo de la red:
 
@@ -158,7 +158,6 @@ http://192.168.1.150/admin
 # o
 http://pihole/admin
 ```
-![Dashboard Pi-hole](screenshots/dashboard.png)
 
 Desde el panel se puede:
 
@@ -195,6 +194,10 @@ pihole -g
 pihole status
 ```
 ![pihole status](screenshots/status.png)
+
+### Dashboard
+
+![Dashboard Pi-hole](screenshots/dashboard.png)
 
 ### Verificar que el DNS funciona desde otro dispositivo
 
